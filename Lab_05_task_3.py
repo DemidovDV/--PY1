@@ -12,6 +12,3 @@ def get_random_password(n=8):
     ]
     shuffle(password)
     return ''.join(password)
-
-for i in range(100):
-    print(get_random_password(n=34))

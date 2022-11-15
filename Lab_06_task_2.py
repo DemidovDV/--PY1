@@ -1,6 +1,9 @@
 import json
 
-INPUT_FILE = "output.csv"
+INPUT_FILE = "input.csv"
+# в pycharm решение с файлом "input.csv" не прошло - не видит файл; 
+# возможно там опечатка и правильно называть файл "output.csv" - оставил оба варианта имени
+# INPUT_FILE = "output.csv"
 
 def csv_to_list_dict(filename):
     data = []

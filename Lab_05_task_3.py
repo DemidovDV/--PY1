@@ -12,3 +12,5 @@ def get_random_password(n=8):
     ]
     shuffle(password)
     return ''.join(password)
+
+print(get_random_password())
